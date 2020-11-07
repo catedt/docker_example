@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  ubuntu:
+    image: ubuntu:18.04
+    tty: true
+
+  ports:
+     - 2200:22
+  volumes:
+   - ./conf.d:/etc/nginx/conf.d
+   - /Users/cate/workspace/project_pacs/:/project_pacs
+#   - /Users/cate/workspace/project_pacs/pshc-cloud-pacs/src/main/resources:/html:ro
