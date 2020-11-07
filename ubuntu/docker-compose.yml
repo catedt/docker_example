@@ -11,5 +11,4 @@ services:
      - "9000:9000"
     volumes:
      - ./conf.d:/etc/nginx/conf.d
-     - /Users/cate/workspace/project_pacs/:/project_pacs
-#   - /Users/cate/workspace/project_pacs/pshc-cloud-pacs/src/main/resources:/html:ro
+     - /Users/cate/workspace/project_pacs:/project_pacs
